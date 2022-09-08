@@ -15,7 +15,7 @@ const Main = ({appType, tagLine, description, mainActionText}) => {
           <p className="text-lg p-3 pt-12 font-bold text-gray-500 lg:text-gray-200">{appType}</p>
         </div>
         <div>
-          <p className="text-6xl p-2 font-bold text-colorOne lg:text-white lg:mx-auto lg:w-4/6 lg:text-8xl">
+          <p className="p-2 font-bold text-colorOne lg:text-white lg:mx-auto lg:w-4/6 lg:text-8xl text-5xl">
             {tagLine}
           </p>
           <hr className="border-t-4 border-colorOne lg:border-colorTwo mt-4 w-14 mx-auto" />
