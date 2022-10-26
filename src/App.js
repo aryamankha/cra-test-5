@@ -15,11 +15,6 @@ import Img_1 from "./assets/Img_1.png";
 import Img_2 from "./assets/Img_2.png";
 import Img_3 from "./assets/Img_3.png";
 
-if (process.env.NODE_ENV === "development") {
-  import("vivid-studio").then((v) => v.run());
-  import("vivid-studio/style");
-}
-
 function App() {
   const data = {
     main: {

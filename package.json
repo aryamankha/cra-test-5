@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,9 +40,9 @@
     ]
   },
   "devDependencies": {
+    "@scallion-stallion/guido": "^0.0.1",
     "autoprefixer": "^10.4.8",
     "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.7",
-    "vivid-studio": "^0.4.4"
+    "tailwindcss": "^3.1.7"
   }
 }
